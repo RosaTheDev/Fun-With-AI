@@ -1,10 +1,11 @@
 import Header from './HeaderContainer/headerContainer'
 import { useState } from "react";
 import styles from "./index.module.css";
-
+import ResponseContainer from './Response Container/ResponseContainer';
 export default function Home() {
   const [promptInput, setPromptInput] = useState("");
-  const [result, setResult] = useState();
+  const [result, setResult] = useState("");
+  const [promptObj, setPromptObj] = useState({});
 
   async function onSubmit(event) {
     event.preventDefault();
@@ -18,12 +19,11 @@ export default function Home() {
     const data = await response.json();
     setResult(data.result);
     setPromptInput("");
+    setPromptObj({prompt: promptInput, response: data.result})
   }
-
   return (
     <div>
       <Header/>
-
       <main className={styles.main}>
         <h3>Fun With AI</h3>
         <form onSubmit={onSubmit}>
@@ -38,6 +38,7 @@ export default function Home() {
           <input type="submit" value="Submit" />
         </form>
         <div className={styles.result}>{result}</div>
+        <div><ResponseContainer prompt={promptObj} response={result}/></div>
       </main>
     </div>
   );
