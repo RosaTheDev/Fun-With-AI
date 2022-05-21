@@ -1,4 +1,4 @@
-import Head from "next/head";
+import Header from './HeaderContainer/headerContainer'
 import { useState } from "react";
 import styles from "./index.module.css";
 
@@ -22,10 +22,7 @@ export default function Home() {
 
   return (
     <div>
-      <Head>
-        <title>OpenAI Quickstart</title>
-        <link rel="icon" href="/dog.png" />
-      </Head>
+      <Header/>
 
       <main className={styles.main}>
         <img src="/dog.png" className={styles.icon} />
