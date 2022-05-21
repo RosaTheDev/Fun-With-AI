@@ -25,9 +25,9 @@ export default function Home() {
       <Header/>
 
       <main className={styles.main}>
-        <img src="/dog.png" className={styles.icon} />
-        <h3>Name my pet</h3>
+        <h3>Fun With AI</h3>
         <form onSubmit={onSubmit}>
+          <h4>Enter Prompt</h4>
           <input
             type="text"
             name="prompt"
@@ -35,7 +35,7 @@ export default function Home() {
             value={promptInput}
             onChange={(e) => setPromptInput(e.target.value)}
           />
-          <input type="submit" value="Generate names" />
+          <input type="submit" value="Submit" />
         </form>
         <div className={styles.result}>{result}</div>
       </main>
