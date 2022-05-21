@@ -1,6 +1,6 @@
 import {useState, useEffect} from "react";
 import ResponseInfoCards from "./ResponseInfoCards/ResponseInfoCards";
-const ResponseContainer = ({prompt, response}) => {
+const ResponseContainer = ({prompt}) => {
   const[promptArray, setPromptArray] = useState([]);
   
   useEffect(() => {

@@ -37,8 +37,7 @@ export default function Home() {
           />
           <input type="submit" value="Submit" />
         </form>
-        <div className={styles.result}>{result}</div>
-        <div><ResponseContainer prompt={promptObj} response={result}/></div>
+        <div className={styles.responseContainer}><ResponseContainer prompt={promptObj} response={result}/></div>
       </main>
     </div>
   );
