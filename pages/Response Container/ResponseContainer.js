@@ -1,5 +1,5 @@
 import {useState, useEffect} from "react";
-
+import ResponseInfoCards from "./ResponseInfoCards/ResponseInfoCards";
 const ResponseContainer = ({prompt, response}) => {
   const[promptArray, setPromptArray] = useState([]);
   
@@ -18,12 +18,18 @@ const ResponseContainer = ({prompt, response}) => {
     return false
   })
 
+  const responseCards = results.map((result, index) => {
+    return(
+      <div key={index}>
+        <ResponseInfoCards prompt={result.prompt} response={result.response}/>
+      </div>
+    )
+  })
+
   console.log(results)
   return(
     <div>
-      <h1>I am a card</h1>
-      <h1>I am a card</h1>
-      <h1>I am a card</h1>
+      {responseCards}
     </div>
   )
 }
