@@ -13,37 +13,41 @@ Deployed site is [here](fun-with-ai-rjrs.herokuapp.com/)
 - [Future Features](#future-features)
 - [Tech Stack](#technologies-used)
 - [Install Instructions](#instructions)
-- [Author/Links](#authorslinks)
+- [Author](#authors)
 
 
 ## PROJECT OVERVIEW
 Fun With AI was created with `NextJS` and tested using `Cypress`.  The project spec required we use OpenAI, to include the original prompt and the AI response, responses need to be sorted from oldest to newest, and the site needs to be accessable and sematic.  
 
-Below are some images of the features of the Sailing to Bermuda Website:  
- <img width="600" alt="Screen Shot 2022-05-08 at 6 02 54 PM" src="https://user-images.githubusercontent.com/90149529/167321422-039578fc-b76a-4c56-805e-58502d9e16c6.png">  
+Below are some images of the features of Fun With AI:  
+<img width="959" alt="Screen Shot 2022-05-21 at 10 07 01 PM" src="https://user-images.githubusercontent.com/29051996/169675264-ef40154b-9555-4430-b318-1f43192e7ea0.png"> 
  
  
- Enter in some race end times. 
+ Enter A prompt. 
 
-<img width="600" alt="Screen Shot 2022-05-08 at 6 03 59 PM" src="https://user-images.githubusercontent.com/90149529/167321438-67f56b68-0ce9-46c3-961a-5cf518568db5.png">
+<img width="959" alt="Screen Shot 2022-05-21 at 10 07 12 PM" src="https://user-images.githubusercontent.com/29051996/169675342-7be4720c-25e2-426a-905c-24aed431ddaf.png">
 
 
-The average race time is displayed below in the results section. 
+View the Prompt / Responses Cards. 
 
-<img width="600" alt="Screen Shot 2022-05-08 at 6 04 19 PM" src="https://user-images.githubusercontent.com/90149529/167321469-32e4b4de-32ed-4e3f-80be-bcd1ad4539d1.png">
+<img width="959" alt="Screen Shot 2022-05-21 at 10 07 21 PM" src="https://user-images.githubusercontent.com/29051996/169675367-8770779a-e1e1-42be-b3f4-0b83bfc98e3b.png">
 
+
+<img width="959" alt="Screen Shot 2022-05-21 at 10 07 33 PM" src="https://user-images.githubusercontent.com/29051996/169675384-cc14946e-01cc-4ef1-9eef-47885986e4bc.png">
+
+Saves prior responses by newest to oldest
+<img width="959" alt="Screen Shot 2022-05-21 at 10 07 49 PM" src="https://user-images.githubusercontent.com/29051996/169675389-ecb37bb3-ccbb-4e2c-987f-437f4f59fdc7.png">
   
 
 ## FUTURE FEATURES
-A feature to toggle between light and dark mode for this application. 
+Error Handling for 500 errors
 
 ## TECHNOLOGIES USED 
 
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![SASS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 ![Cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e)
 ![Webpack](https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=Webpack&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
@@ -54,17 +58,14 @@ A feature to toggle between light and dark mode for this application.
 ## INSTRUCTIONS
 - fork the repository
 - copy the SSH clone address
-- run ```git clone https://github.com/Fordo29/sailing-to-bermuda``` in your repo
+- run ```git clone git@github.com:RosaTheDev/Fun-With-AI.git``` in your repo
 - run ```npm install``` in your terminal
 - run ```npm start``` in the Terminal visit localhost:3000
 
 ## AUTHORS/LINKS
 
-#### Project Links
-- [Project Board](https://github.com/Fordo29/sailing-to-bermuda/projects/1)
-- [Wireframe Provided](https://app.abstract.com/share/e29956ba-1198-465a-ae0b-0088002a1f4a?collectionId=cf3e1843-7447-4dc4-b0d6-09cc9ce2540b&collectionLayerId=829f28fe-2412-402e-b5e0-cc2226816497&present=true&preview=false&sha=b1723bf5f93dce126b9fe3bf38362e29f313c8fc)
 
 #### AUTHOR:
-- Christine Rowland: 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/christine-rowland/) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Fordo29)
+- Richard Rosa-Serrano: 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rosathedev/) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RosaTheDev)
 
