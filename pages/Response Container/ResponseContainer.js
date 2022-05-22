@@ -26,10 +26,14 @@ const ResponseContainer = ({prompt}) => {
     )
   })
 
-  console.log(results)
+  const sortedArray = responseCards.sort((response1, response2) => {
+    return response2.key - response1.key
+  })
+
+
   return(
     <div>
-      {responseCards}
+      {sortedArray}
     </div>
   )
 }
