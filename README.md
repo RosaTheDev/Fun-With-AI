@@ -10,6 +10,8 @@ Deployed site is [here](https://fun-with-ai-rjrs.herokuapp.com/)
 
 ## TABLE OF CONTENTS
 - [Project Overview](#project-overview) 
+- [Accessibility](#accessibility)
+- [Future Features](#future-features)
 - [Tech Stack](#technologies-used)
 - [Install Instructions](#instructions)
 - [Authors](#authors)
@@ -39,6 +41,7 @@ Saves prior responses by newest to oldest
   
 ## ACCESSIBILITY 
 <img width="959" alt="Screen Shot 2022-05-21 at 10 08 25 PM" src="https://user-images.githubusercontent.com/29051996/169675666-cf808e5d-74a5-4efd-818b-dbd151b134d5.png">
+
 ## FUTURE FEATURES
 Error Handling for 500 errors
 
