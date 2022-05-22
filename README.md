@@ -6,14 +6,13 @@
 Ever wanted to play around with AI? Well now you can! Enter a prompt, any prompt and you will receice a reply from a semi-intelligent AI!
 
 Project Spec is [here](https://gist.github.com/RosaTheDev/f292888875e24d1d7477c8718453f908)  
-Deployed site is [here](fun-with-ai-rjrs.herokuapp.com/)
+Deployed site is [here](https://fun-with-ai-rjrs.herokuapp.com/)
 
 ## TABLE OF CONTENTS
-- [Project Overview](#project-overview)
-- [Future Features](#future-features)
+- [Project Overview](#project-overview) 
 - [Tech Stack](#technologies-used)
 - [Install Instructions](#instructions)
-- [Author](#authors)
+- [Authors](#authors)
 
 
 ## PROJECT OVERVIEW
@@ -38,7 +37,8 @@ View the Prompt / Responses Cards.
 Saves prior responses by newest to oldest
 <img width="959" alt="Screen Shot 2022-05-21 at 10 07 49 PM" src="https://user-images.githubusercontent.com/29051996/169675389-ecb37bb3-ccbb-4e2c-987f-437f4f59fdc7.png">
   
-
+## ACCESSIBILITY 
+<img width="959" alt="Screen Shot 2022-05-21 at 10 08 25 PM" src="https://user-images.githubusercontent.com/29051996/169675666-cf808e5d-74a5-4efd-818b-dbd151b134d5.png">
 ## FUTURE FEATURES
 Error Handling for 500 errors
 
@@ -62,7 +62,7 @@ Error Handling for 500 errors
 - run ```npm install``` in your terminal
 - run ```npm start``` in the Terminal visit localhost:3000
 
-## AUTHORS/LINKS
+## AUTHORS
 
 
 #### AUTHOR:
